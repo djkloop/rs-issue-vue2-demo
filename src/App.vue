@@ -5,7 +5,9 @@
   </div>
 </template>
 
-<style scoped>
+
+<style lang="scss">
+
 .content {
   display: flex;
   min-height: 100vh;
@@ -13,6 +15,8 @@
   text-align: center;
   flex-direction: column;
   justify-content: center;
+
+  @extend %unable-select;
 }
 
 .content h1 {
