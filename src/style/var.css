@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "abc-font";
+  src: url("./fonts/iconfont.woff?t=1568087810776") format("woff"),
+    url("./fonts/iconfont.ttf?t=1568087810776") format("truetype"),
+    url("./fonts/iconfont.svg?t=1568087810776#abc-font") format("svg"); /* iOS 4.1- */
+}
+
+.x-text-left {
+  color: red;
+}

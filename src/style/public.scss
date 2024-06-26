@@ -1,0 +1,21 @@
+// ok
+@import "var";
+
+// ok
+@import "var1.scss";
+
+// ok
+@import "~@/style/var2.scss";
+
+// error
+// @import url("./var.css");
+
+// error
+// @import "./var.css";
+
+// ok warning [但是一旦在css文件中加入字体也会报错]
+@import "~@/style/var.css";
+
+.#{$prefix}-text-left {
+  text-align: left;
+}

@@ -2,11 +2,12 @@
   <div class="content">
     <h1>Rsbuild with Vue</h1>
     <p>Start building amazing things with Rsbuild.</p>
+    <p class="x-text-left">scss public class</p>
   </div>
 </template>
 
-
 <style lang="scss">
+@import "~@/style/public.scss";
 
 .content {
   display: flex;
@@ -26,7 +27,6 @@
 
 .content p {
   font-size: 1.2rem;
-  font-weight: 400;
   opacity: 0.5;
 }
 </style>
